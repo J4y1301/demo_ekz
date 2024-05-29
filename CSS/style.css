@@ -1,0 +1,60 @@
+*{
+    font-family: Verdana;
+}                                                                                                                       
+body {
+    background-image: radial-gradient(circle, #1a1a1a, #333333);
+    color: #ffffff;
+}
+      
+  
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;  
+}
+
+.problems{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;  
+}
+.all_problems td, .all_problems th{
+    border: 1px solid black;
+    padding-inline: 10px ;
+}
+
+.admin_title{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(6, 179, 6);
+    margin-bottom: 0;
+}
+.problems_statistic td, .statistic_problems th{
+    border: 1px solid black;
+    padding-inline: 10px ;
+}
+.notice{
+border: 1px solid black;
+border-radius: 5px;
+padding: 5px;
+background-color: rgb(6, 179, 6);
+margin-bottom: 15;
+}
